@@ -1,0 +1,10 @@
+{
+    "name": "exfat",
+    "description": "exfat file support.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "exfat-utils exfat-fuse"
+        ]
+    }
+}

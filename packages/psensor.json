@@ -1,0 +1,10 @@
+{
+    "name": "psensor",
+    "description": "Hardware temperature monitoring utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "psensor"
+        ]
+    }
+}

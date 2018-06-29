@@ -1,0 +1,16 @@
+{
+    "name": "Gnome Extensions",
+    "description": "Common Gnome extensions.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "gnome-shell-extensions",
+            "chrome-gnome-shell",
+            "gnome-shell-extension-trash",
+            "gnome-shell-extension-hide-activities",
+            "gnome-shell-extension-mediaplayer",
+            "gnome-shell-extension-mediaplayer",
+            "gnome-shell-extension-disconnect"
+        ]
+    }
+}

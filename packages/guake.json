@@ -1,0 +1,13 @@
+{
+    "name": "guake",
+    "description": "Quake-like terminal emulator.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "guake"
+        ]
+    },
+    "post-exec": [
+        "echo -e \"[Desktop Entry]\nType=Application\nName=Guake\nExec=guake\nComment=Guake Terminal Emulator\" > /home/`logname`/.config/autostart/guake.desktop"
+    ]
+}

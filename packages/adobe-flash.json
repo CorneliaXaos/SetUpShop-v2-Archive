@@ -1,0 +1,10 @@
+{
+    "name": "Adobe Flash",
+    "description": "Adobe Flash support.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "flashplugin-installer"
+        ]
+    }
+}

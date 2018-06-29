@@ -1,0 +1,13 @@
+{
+    "name": "Programming",
+    "description": "Programming software, utilities, and IDEs.",
+    "packages": [
+        "git.json",
+        "libsdl2-dev.json",
+        "love.json",
+        "mono.json",
+        "openjdk.json",
+        "perl.json",
+        "python3.json"
+    ]
+}

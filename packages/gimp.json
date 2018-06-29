@@ -1,0 +1,13 @@
+{
+    "name": "GIMP 2",
+    "description": "GNU Image Manipulation Program",
+    "ppa": [
+        "ppa:otto-kesselgulasch/gimp"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "gimp"
+        ]
+    }
+}

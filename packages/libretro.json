@@ -1,0 +1,13 @@
+{
+    "name": "libretro / Retroarch",
+    "description": "Retrogaming emulation software.",
+    "ppa": [
+        "ppa:libretro/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "libretro-* retroarch-* retroarch"
+        ]
+    }
+}

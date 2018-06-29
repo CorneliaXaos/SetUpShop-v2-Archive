@@ -1,0 +1,12 @@
+{
+    "name": "Misc GUI",
+    "description": "Miscellaneous GUI software.",
+    "packages": [
+        "deluge.json",
+        "easytag.json",
+        "gparted.json",
+        "pavucontrol.json",
+        "psensor.json",
+        "zenmap.json"
+    ]
+}

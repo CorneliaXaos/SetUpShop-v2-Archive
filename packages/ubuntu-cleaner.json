@@ -1,0 +1,13 @@
+{
+    "name": "Ubuntu Cleaner",
+    "description": "System cleaner for Ubuntu.",
+    "ppa": [
+        "ppa:gerardpuig/ppa"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "ubuntu-cleaner"
+        ]
+    }
+}

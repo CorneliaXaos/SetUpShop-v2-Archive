@@ -1,0 +1,10 @@
+{
+    "name": "bless",
+    "description": "bless hex editor.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "bless"
+        ]
+    }
+}

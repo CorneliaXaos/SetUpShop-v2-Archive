@@ -1,0 +1,16 @@
+{
+    "name": "vim",
+    "description": "Terminal-based file editor.",
+    "remove": {
+        "mode": "apt",
+        "targets": [
+            "vim-tiny"
+        ]
+    },
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "vim"
+        ]
+    }
+}

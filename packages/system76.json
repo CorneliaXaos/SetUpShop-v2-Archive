@@ -1,0 +1,14 @@
+{
+    "name": "system76",
+    "description": "system76 support",
+    "ppa": [
+        "ppa:system76-dev/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "system76-driver",
+            "system76-driver-nvidia"
+        ]
+    }
+}

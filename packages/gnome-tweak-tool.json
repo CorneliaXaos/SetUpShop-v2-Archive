@@ -1,0 +1,10 @@
+{
+    "name": "Gnome Tweak Tool",
+    "description": "Gnome tweaking utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "gnome-tweak-tool"
+        ]
+    }
+}

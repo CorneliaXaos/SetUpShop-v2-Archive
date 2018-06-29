@@ -1,0 +1,10 @@
+{
+    "name": "Cheese",
+    "description": "Webcam Photo Booth",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "cheese"
+        ]
+    }
+}

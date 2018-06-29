@@ -1,0 +1,10 @@
+{
+    "name": "EasyTag",
+    "description": "Music file metatag editing software.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "easytag"
+        ]
+    }
+}

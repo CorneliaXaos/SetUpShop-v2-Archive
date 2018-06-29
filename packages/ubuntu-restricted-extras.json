@@ -1,0 +1,10 @@
+{
+    "name": "ubuntu-restricted-extras",
+    "description": "Non-Free Support (i.e. MP3)",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "ubuntu-restricted-extras"
+        ]
+    }
+}

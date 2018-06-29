@@ -1,0 +1,9 @@
+{
+    "name": "Miscellaneous",
+    "description": "Miscellaneous software.",
+    "packages": [
+        "adobe-flash.json",
+        "wallch.json",
+        "wine.json"
+    ]
+}

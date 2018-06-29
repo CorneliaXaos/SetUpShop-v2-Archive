@@ -1,0 +1,10 @@
+{
+    "name": "git",
+    "description": "Version control software.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "git"
+        ]
+    }
+}

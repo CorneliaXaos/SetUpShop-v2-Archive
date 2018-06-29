@@ -1,0 +1,8 @@
+{
+    "name": "FS Support",
+    "description": "Various file / file system support software.",
+    "packages": [
+        "exfat.json",
+        "rar.json"
+    ]
+}

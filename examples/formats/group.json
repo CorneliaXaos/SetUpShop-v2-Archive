@@ -1,0 +1,9 @@
+{
+    "name": "group name",
+    "description": "group description",
+    "packages": [
+        "package 1",
+        "package 2",
+        "package 3"
+    ]
+}

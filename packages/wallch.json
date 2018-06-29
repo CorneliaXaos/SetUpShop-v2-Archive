@@ -1,0 +1,13 @@
+{
+    "name": "wallch",
+    "description": "Desktop Background Software",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "wallch"
+        ]
+    },
+    "post-exec": [
+        "echo -e \"[Desktop Entry]\nType=Application\nName=Wallch\nExec=wallch --change=/home/`logname`/Pictures/Wallpapers\nComment=Change Desktop background daily.\" > /home/`logname`/.config/autostart/wallch.desktop"
+    ]
+}

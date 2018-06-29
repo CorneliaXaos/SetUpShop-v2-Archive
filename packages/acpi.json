@@ -1,0 +1,10 @@
+{
+    "name": "acpi",
+    "description": "Hardware status utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "acpi"
+        ]
+    }
+}

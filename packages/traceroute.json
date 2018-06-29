@@ -1,0 +1,10 @@
+{
+    "name": "traceroute",
+    "description": "traceroute cli utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "traceroute"
+        ]
+    }
+}

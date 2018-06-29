@@ -1,0 +1,14 @@
+{
+    "name": "perl",
+    "description": "PERL programming language support.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "perl",
+            "libparams-validate-perl"
+        ]
+    },
+    "post-exec": [
+        "cpan List:PowerSet"
+    ]
+}

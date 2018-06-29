@@ -1,0 +1,14 @@
+{
+    "name": "discord",
+    "description": "Gamer VOIP software.",
+    "pre-exec": [
+        "wget -O discord.deb \"https://discordapp.com/api/download?platform=linux&format=deb\""
+    ],
+    "exec": [
+        "dpkg -i ./discord.deb; apt install -y -f"
+    ],
+    "post-exec": [
+        "rm discord.deb",
+        "echo -e \"[Desktop Entry]\nType=Application\nName=Discord\nExec=discord\nComment=Discord VOIP Service\" > /home/`logname`/.config/autostart/discord.desktop"
+    ]
+}

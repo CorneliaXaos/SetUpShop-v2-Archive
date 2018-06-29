@@ -1,0 +1,8 @@
+{
+    "name": "Test Group 2",
+    "description": "This is a test, too.",
+    "packages": [
+        "TEST_PACKAGE.json",
+        "TEST_PACKAGE2.json"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Test Package 1",
+    "description": "A testing package.",
+    "pre-exec": [
+        "echo pre-exec",
+        "echo also pre-exec"
+    ],
+    "remove": {
+        "mode": "apt",
+        "targets": [
+            "-s peek"
+        ]
+    },
+    "exec": [
+        "echo exec"
+    ],
+    "install": {
+        "mode": "snap",
+        "targets": [
+            "hello-world"
+        ]
+    },
+    "post-exec": [
+        "echo post-exec"
+    ]
+}

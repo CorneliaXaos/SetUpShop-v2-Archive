@@ -1,0 +1,15 @@
+{
+    "name": "openrazer",
+    "description": "Linux Razer drivers and utilities.",
+    "ppa": [
+        "ppa:openrazer/stable",
+        "ppa:polychromatic/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "openrazer-meta",
+            "polychromatic"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "LOVE",
+    "description": "Lua game libraries.",
+    "ppa": [
+        "ppa:bartbes/love-stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "liblove love"
+        ]
+    }
+}

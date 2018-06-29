@@ -1,0 +1,13 @@
+{
+    "name": "OBS",
+    "description": "Open Broadcasting Software",
+    "ppa": [
+        "ppa:obsproject/obs-studio"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "obs-studio"
+        ]
+    }
+}

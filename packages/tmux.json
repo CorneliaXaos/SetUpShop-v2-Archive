@@ -1,0 +1,10 @@
+{
+    "name": "tmux",
+    "description": "Terminal multiplexor.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "tmux"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "pavucontrol",
+    "description": "PulseAudio Volume Control",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "pavucontrol"
+        ]
+    }
+}

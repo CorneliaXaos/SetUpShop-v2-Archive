@@ -1,0 +1,10 @@
+{
+    "name": "Tweaks",
+    "description": "Various tweaking software and automated tweaks.",
+    "packages": [
+        "config-tools.json",
+        "preload.json",
+        "tlp.json",
+        "gnome-tweak-tool.json"
+    ]
+}

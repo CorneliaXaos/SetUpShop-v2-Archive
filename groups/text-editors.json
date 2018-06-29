@@ -1,0 +1,9 @@
+{
+    "name": "Text Editor Utilities",
+    "description": "Various text file editors.",
+    "packages": [
+        "atom.json",
+        "bless.json",
+        "vim.json"
+    ]
+}

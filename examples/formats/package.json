@@ -1,0 +1,34 @@
+{
+    "name": "package name",
+    "description": "package description",
+    "pre-exec": [
+        "command1",
+        "command2"
+    ],
+    "remove": {
+        "mode": "apt | snap",
+        "targets": [
+            "package1",
+            "package2"
+        ]
+    },
+    "ppa": [
+        "ppa1",
+        "ppa2"
+    ],
+    "exec": [
+        "command1",
+        "command2"
+    ],
+    "install": {
+        "mode": "apt | snap",
+        "targets": [
+            "package1",
+            "package2"
+        ]
+    },
+    "post-exec": [
+        "command1",
+        "command2"
+    ]
+}

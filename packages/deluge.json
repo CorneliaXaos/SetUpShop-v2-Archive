@@ -1,0 +1,10 @@
+{
+    "name": "Deluge",
+    "description": "Torrent Software",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "deluge"
+        ]
+    }
+}

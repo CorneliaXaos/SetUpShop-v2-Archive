@@ -1,0 +1,13 @@
+{
+    "name": "Steam",
+    "description": "Valve's game storefront.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "steam"
+        ]
+    },
+    "post-exec": [
+        "echo -e \"[Desktop Entry]\nType=Application\nName=Steam\nExec=steam\nComment=Steam Game Service\" > /home/`logname`/.config/autostart/steam.desktop"
+    ]
+}

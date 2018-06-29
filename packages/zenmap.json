@@ -1,0 +1,10 @@
+{
+    "name": "zenmap",
+    "description": "Network probe utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "zenmap"
+        ]
+    }
+}

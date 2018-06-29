@@ -1,0 +1,13 @@
+{
+    "name": "PPSSPP",
+    "description": "PSP Emulation Software",
+    "ppa": [
+        "ppa:ppsspp/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "ppsspp"
+        ]
+    }
+}

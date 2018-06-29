@@ -1,0 +1,16 @@
+{
+    "name": "tlp",
+    "description": "Battery saver and advanced power management.",
+    "ppa": [
+        "ppa:linrunner/tlp"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "tlp tlp-rdw"
+        ]
+    },
+    "post-exec": [
+        "sudo tlp start"
+    ]
+}

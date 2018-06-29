@@ -1,0 +1,13 @@
+{
+    "name": "Skype",
+    "description": "Skype VOIP Software",
+    "install": {
+        "mode": "snap",
+        "targets": [
+            "--classic skype"
+        ]
+    },
+    "post-exec": [
+        "echo -e \"[Desktop Entry]\nType=Application\nName=Skype\nExec=skype\nComment=Skype\" > /home/`logname`/.config/autostart/skype.desktop"
+    ]
+}

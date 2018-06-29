@@ -1,0 +1,10 @@
+{
+    "name": "htop",
+    "description": "Interactive process viewer.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "htop"
+        ]
+    }
+}

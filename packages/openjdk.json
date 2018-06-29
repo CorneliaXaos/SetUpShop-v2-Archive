@@ -1,0 +1,16 @@
+{
+    "name": "openjdk",
+    "description": "Installs many OpenJDK packages and prompts for configuration.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "openjdk-*-jre openjdk-*-jdk openjdk-*-doc openjdk-*-dbg",
+            "icedtea-plugin",
+            "libpulse-java libpulse-jni",
+            "openjfx libopenjfx-java libopenjfx-java-doc libopenjfx-jni"
+        ]
+    },
+    "post-exec": [
+        "update-alternatives --config java"
+    ]
+}

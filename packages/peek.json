@@ -1,0 +1,13 @@
+{
+    "name": "peek",
+    "description": "GIF recorder.",
+    "ppa": [
+        "ppa:peek-developers/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "peek"
+        ]
+    }
+}

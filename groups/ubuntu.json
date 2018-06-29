@@ -1,0 +1,9 @@
+{
+    "name": "Ubuntu Tools / Utilities",
+    "description": "Ubuntu specific tools and utilities.",
+    "packages": [   
+        "ubuntu-restricted-extras.json",
+        "ubuntu-cleaner.json",
+        "remove-default-software.json"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "tree",
+    "description": "tree cli utility.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "tree"
+        ]
+    }
+}

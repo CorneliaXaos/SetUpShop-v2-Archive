@@ -1,0 +1,10 @@
+{
+    "name": "Joystick",
+    "description": "Various joystick software utilities.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "jstest-gtk"
+        ]
+    }
+}

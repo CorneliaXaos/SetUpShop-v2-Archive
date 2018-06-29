@@ -1,0 +1,26 @@
+{
+    "name": "WINE",
+    "description": "WINE Is Not an Emulator",
+    "pre-exec": [
+        "if [ `dpkg --print-architecture` != \"i386\" ]; then dpkg --add-architecture i386; fi",
+        "wget -nc https://dl.winehq.org/wine-builds/Release.key",
+        "apt-key add Release.key",
+        "rm Release.key"
+    ],
+    "ppa": [
+        "https://dl.winehq.org/wine-builds/ubuntu/"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "--install-recommends winehq-staging",
+            "winetricks",
+            "winbind"
+        ]
+    },
+    "post-exec": [
+        "env WINEPREFIX=\"/home/`logname`/.wine/\" winecfg",
+        "env WINEPREFIX=\"/home/`logname`/.wine/\" winetricks corefonts",
+        "env WINEPREFIX=\"/home/`logname`/.wine/\" winetricks --no-isolate steam"
+    ]
+}

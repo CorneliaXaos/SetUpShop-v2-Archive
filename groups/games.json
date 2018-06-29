@@ -1,0 +1,11 @@
+{
+    "name": "Games",
+    "description": "Game software packages and utilities.",
+    "packages": [
+        "0ad.json",
+        "joystick.json",
+        "libretro.json",
+        "ppsspp.json",
+        "steam.json"
+    ]
+}

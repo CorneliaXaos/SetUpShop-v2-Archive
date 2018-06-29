@@ -1,0 +1,10 @@
+{
+    "name": "Multimedia Editors",
+    "description": "Various multimedia editors.",
+    "packages": [
+        "audacity.json",
+        "blender.json",
+        "gimp.json",
+        "inkscape.json"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Com Utils",
+    "description": "Various communication utilities.",
+    "packages": [
+        "discord.json",
+        "skype.json"
+    ]
+}

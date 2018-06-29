@@ -1,0 +1,13 @@
+{
+    "name": "Inkscape",
+    "description": "Vector graphics editing software.",
+    "ppa": [
+        "ppa:inkscape.dev/stable"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "inkscape"
+        ]
+    }
+}

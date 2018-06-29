@@ -1,0 +1,12 @@
+{
+    "name": "Terminal Utils",
+    "description": "Various terminal utilities.",
+    "packages": [
+        "acpi.json",
+        "guake.json",
+        "htop.json",
+        "tmux.json",
+        "traceroute.json",
+        "tree.json"
+    ]
+}

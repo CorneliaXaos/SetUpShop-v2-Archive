@@ -1,0 +1,13 @@
+{
+    "name": "0AD",
+    "description": "Civilization 4X Game",
+    "ppa": [
+        "ppa:wfg/0ad"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "0ad"
+        ]
+    }
+}

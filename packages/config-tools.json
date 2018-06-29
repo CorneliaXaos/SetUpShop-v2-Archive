@@ -1,0 +1,11 @@
+{
+    "name": "Configuration Tools",
+    "description": "Various configuration utilities.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "dconf-tools",
+            "gconf-editor"
+        ]
+    }
+}

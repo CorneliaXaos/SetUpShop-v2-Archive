@@ -1,0 +1,10 @@
+{
+    "name": "preload",
+    "description": "Adaptive readahead daemon.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "preload"
+        ]
+    }
+}

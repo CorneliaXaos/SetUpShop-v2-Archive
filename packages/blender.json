@@ -1,0 +1,16 @@
+{
+    "name": "Blender",
+    "description": "3D Animation Suite",
+    "ppa": [
+        "ppa:thomas-schiex/blender"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "blender"
+        ]
+    },
+    "post-exec": [
+        "adduser `logname` video"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "libsdl2-dev",
+    "description": "libSDL2 dev libraries.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev"
+        ]
+    }
+}

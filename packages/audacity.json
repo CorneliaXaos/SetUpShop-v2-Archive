@@ -1,0 +1,13 @@
+{
+    "name": "Audacity",
+    "description": "Audio file manipulation software.",
+    "ppa": [
+        "ppa:ubuntuhandbook1/audacity"
+    ],
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "audacity"
+        ]
+    }
+}

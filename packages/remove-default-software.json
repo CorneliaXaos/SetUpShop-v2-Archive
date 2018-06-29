@@ -1,0 +1,12 @@
+{
+    "name": "Remove Default Software",
+    "description": "Removes default software that I don't want..",
+    "autoremove": {
+        "mode": "apt",
+        "targets": [
+            "rhythmbox",
+            "thunderbird",
+            "transmission*"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "RAR Support",
+    "description": "rar archive support.",
+    "install": {
+        "mode": "apt",
+        "targets": [
+            "rar"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Broadcasting Software",
+    "description": "Broadcasting / recording utilities.",
+    "packages": [
+        "cheese.json",
+        "obs.json",
+        "peek.json"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "atom",
+    "description": "A hackable text editor.",
+    "pre-exec": [
+        "wget -O atom.deb 'https://atom.io/download/deb'"
+    ],
+    "exec": [
+        "dpkg -i atom.deb"
+    ],
+    "post-exec": [
+        "rm atom.deb"
+    ]
+}
